@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC53C5BA1A79CE8E00756765 /* OpenGLHelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC53C5B81A79CE8E00756765 /* OpenGLHelloWorld.cpp */; };
+		CC53C5BC1A79D9B200756765 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC53C5BB1A79D9B200756765 /* Cocoa.framework */; };
+		CC53C5BE1A79D9B900756765 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC53C5BD1A79D9B900756765 /* GLUT.framework */; };
+		CC53C5C01A79D9D000756765 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC53C5BF1A79D9D000756765 /* OpenGL.framework */; };
 		CC5C72931A79C929009F6699 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC5C72921A79C929009F6699 /* main.cpp */; };
+		CCE8E0EC1A7DB7D700211E0C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE8E0EB1A7DB7D700211E0C /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CC53C5B81A79CE8E00756765 /* OpenGLHelloWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLHelloWorld.cpp; sourceTree = "<group>"; };
+		CC53C5B91A79CE8E00756765 /* OpenGLHelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLHelloWorld.h; sourceTree = "<group>"; };
+		CC53C5BB1A79D9B200756765 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CC53C5BD1A79D9B900756765 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		CC53C5BF1A79D9D000756765 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		CC5C728F1A79C929009F6699 /* openGLTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = openGLTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC5C72921A79C929009F6699 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CCE8E0EB1A7DB7D700211E0C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCE8E0EC1A7DB7D700211E0C /* GLKit.framework in Frameworks */,
+				CC53C5C01A79D9D000756765 /* OpenGL.framework in Frameworks */,
+				CC53C5BE1A79D9B900756765 /* GLUT.framework in Frameworks */,
+				CC53C5BC1A79D9B200756765 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +56,10 @@
 		CC5C72861A79C929009F6699 = {
 			isa = PBXGroup;
 			children = (
+				CCE8E0EB1A7DB7D700211E0C /* GLKit.framework */,
+				CC53C5BF1A79D9D000756765 /* OpenGL.framework */,
+				CC53C5BD1A79D9B900756765 /* GLUT.framework */,
+				CC53C5BB1A79D9B200756765 /* Cocoa.framework */,
 				CC5C72911A79C929009F6699 /* openGLTest */,
 				CC5C72901A79C929009F6699 /* Products */,
 			);
@@ -58,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				CC5C72921A79C929009F6699 /* main.cpp */,
+				CC53C5B81A79CE8E00756765 /* OpenGLHelloWorld.cpp */,
+				CC53C5B91A79CE8E00756765 /* OpenGLHelloWorld.h */,
 			);
 			path = openGLTest;
 			sourceTree = "<group>";
@@ -118,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC53C5BA1A79CE8E00756765 /* OpenGLHelloWorld.cpp in Sources */,
 				CC5C72931A79C929009F6699 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +254,7 @@
 				CC5C72981A79C929009F6699 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
